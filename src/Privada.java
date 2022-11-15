@@ -15,8 +15,10 @@ public class Privada extends Universidade {
     }
 
     public void imprimeInfo(){
+        System.out.println("------------------------------------");
         super.imprimeInfo();
         System.out.println("Valor da mensalidade: R$"+valorMensalidade);
+        System.out.println("------------------------------------");
     }
 
 }

@@ -24,9 +24,11 @@ public class Publica extends Universidade {
     }
 
     public void imprimeInfo(){
+        System.out.println("------------------------------------");
         super.imprimeInfo();
         System.out.println("Estado: "+estado);
         System.out.println("Cidade: "+cidade);
+        System.out.println("------------------------------------");
     }
 
 }

@@ -7,6 +7,7 @@ public class Principal {
 
 
         for (int i = 0; i < arrayUniversidade.length; i++){
+
             System.out.println("Que tipo de universidade você deseja incluir? ");
             int publicaOuPrivada = Teclado.leInt("Digite uma opção: 1 - Pública | 2 - Privada: ");
 
@@ -18,5 +19,6 @@ public class Principal {
         }
 
         MEC.imprimeUniversidades(arrayUniversidade);
+
     }
 }

@@ -6,11 +6,13 @@ public class MEC {
         }
     }
 
-    public static void maisCara(Privada[] arrayUniversidade){
-
+    public static void maisCara(Privada [] arrayUniversidade){
+        for (int i = 0; i < arrayUniversidade.length; i++)
+            arrayUniversidade[i].getValorMensalidade();
     }
 
     public static void universidadesDoSul(){
 
     }
+
 }
