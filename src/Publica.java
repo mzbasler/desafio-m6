@@ -1,10 +1,10 @@
 public class Publica extends Universidade {
     private String estado, cidade;
 
-    public Publica(String nome, int quantAlunosA, int quantProfessores, String estado, String cidade) {
-        super(nome, quantAlunosA, quantProfessores);
-        estado = estado;
-        cidade = cidade;
+    public Publica(String nome, int quantAlunos, int quantProfessores, String estado, String cidade) {
+        super(nome, quantAlunos, quantProfessores);
+        this.estado = estado;
+        this.cidade = cidade;
     }
 
     public String getEstado() {
