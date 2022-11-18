@@ -1,12 +1,10 @@
 public class Universidade {
-
     private String nome;
     private int quantAlunos, quantProfessores;
-
-    public Universidade(String nome, int quantAlunos, int quantProfessores) {
-        this.nome = nome;
-        this.quantAlunos = quantAlunos;
-        this.quantProfessores = quantProfessores;
+    public Universidade(String n, int qA, int qP) {
+        nome = n;
+        quantAlunos = qA;
+        quantProfessores = qP;
     }
     public String getNome() {
         return nome;
@@ -26,7 +24,6 @@ public class Universidade {
     public void setQuantProfessores(int qP) {
         quantProfessores = qP;
     }
-
     public void imprimeInfo(){
         System.out.println("Nome: "+nome);
         System.out.println("Quantidade de alunos: "+quantAlunos);
