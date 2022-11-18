@@ -24,6 +24,7 @@ public class MEC {
                 index = i;
             }
         }
+        System.out.println();
         System.out.println("---------UNIVERSIDADE MAIS CARA----------");
         ((Privada) arrayUniversidade[index]).imprimeInfo();
         System.out.println("-----------------------------------------");
@@ -36,10 +37,11 @@ public class MEC {
         for (int i = 0; i < arrayUniversidade.length; i++) {
             if (arrayUniversidade[i] instanceof Publica) {
                 aux = (((Publica) arrayUniversidade[i]).getEstado());
-                if((aux).equals("RS") || (aux).equals("SC") || (aux).equals("PR"))
+                if(aux.equals("RS") || aux.equals("SC") || aux.equals("PR")) {
                     System.out.println("-----------------------------------------");
-                ((Publica) arrayUniversidade[i]).imprimeInfo();
-                System.out.println("-----------------------------------------");
+                    ((Publica) arrayUniversidade[i]).imprimeInfo();
+                    System.out.println("-----------------------------------------");
+                }
             }
         }
     }

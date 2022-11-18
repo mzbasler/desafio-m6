@@ -8,11 +8,11 @@ Crie uma classe chamada MEC. Nesta classe, crie os métodos abaixo:
 informações de todas as Universidades, indicando na impressão o tipo da 
 Universidade (Publica ou Privada).</s>
 
-2. maisCara, que recebe um array de Universidade e imprime as informações 
-da Universidade Privada mais cara do array.
+2. <s>maisCara, que recebe um array de Universidade e imprime as informações 
+da Universidade Privada mais cara do array.</s>
 
-3. universidadesDoSul, que recebe um array de Universidade e imprime as 
-informações das Universidades Públicas do Sul do Brasil (ou seja, RS, SC e PR).
+3. <s>universidadesDoSul, que recebe um array de Universidade e imprime as 
+informações das Universidades Públicas do Sul do Brasil (ou seja, RS, SC e PR).</s>
 
 Questão 2.
 
@@ -29,9 +29,9 @@ de Universidade ele deseja inserir em cada posição).</s>
 4. <s>Utilizando um objeto do tipo MEC, imprima as informações de todas as 
 Universidades do array.</s>
 
-5. Utilizando um objeto do tipo MEC, imprima as informações da Universidade 
-Privada mais cara do array.
+5. <s>Utilizando um objeto do tipo MEC, imprima as informações da Universidade 
+Privada mais cara do array.</s>
 
-6. Utilizando um objeto do tipo MEC, imprima as informações de todas as 
-Universidades Públicas da região Sul do Brasil.
+6. <s>Utilizando um objeto do tipo MEC, imprima as informações de todas as 
+Universidades Públicas da região Sul do Brasil.</s>
  

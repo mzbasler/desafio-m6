@@ -2,7 +2,7 @@ public class Principal {
 
     public static void main(String[] args){
 
-        int tamanhoArray = Teclado.leInt("Digite o numero de universidades que você deseja incluir: ");
+        int tamanhoArray = Teclado.leInt("Digite o numero de universidades que você deseja cadastrar: ");
         Universidade [] arrayUniversidade = new Universidade[tamanhoArray];
 
 
@@ -12,14 +12,25 @@ public class Principal {
             int publicaOuPrivada = Teclado.leInt("Digite uma opção: 1 - Pública | 2 - Privada: ");
 
             if(publicaOuPrivada == 1)
-                arrayUniversidade[i] = new Publica("UFRGS", 30, 2, "RS", "Porto Alegre");
+                arrayUniversidade[i] = new Publica(
+                    Teclado.leString("Insira o nome da Universidade: "),
+                    Teclado.leInt("Insira a quantidade de alunos: "),
+                    Teclado.leInt("Insira a quantidade de Professores: "),
+                    Teclado.leString("Insira o Estado: "),
+                    Teclado.leString("Insira a Cidade: ")
+                );
 
             if( publicaOuPrivada == 2)
-                arrayUniversidade[i] = new Privada("PUCRS", 60, 4, 1000);
+                arrayUniversidade[i] = new Privada(
+                    Teclado.leString("Insira o nome da Universidade: "),
+                    Teclado.leInt("Insira a quantidade de alunos: "),
+                    Teclado.leInt("Insira a quantidade de Professores: "),
+                    Teclado.leDouble("Insira o valor da mensalidade: ")
+                );
         }
 
         MEC.imprimeUniversidades(arrayUniversidade);
-        MEC.maisCara(arrayUniversidade);
+        //MEC.maisCara(arrayUniversidade);
         MEC.universidadesDoSul(arrayUniversidade);
 
     }
