@@ -20,6 +20,7 @@ public class Principal {
 
         MEC.imprimeUniversidades(arrayUniversidade);
         MEC.maisCara(arrayUniversidade);
+        MEC.universidadesDoSul(arrayUniversidade);
 
     }
 }
