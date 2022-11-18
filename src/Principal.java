@@ -1,7 +1,7 @@
 public class Principal {
 
     public static void main(String[] args){
-        // Crie um array de Universidade com o número de posições indicadas pelo usuário via teclado. (OK)
+
         int tamanhoArray = Teclado.leInt("Digite o numero de universidades que você deseja incluir: ");
         Universidade [] arrayUniversidade = new Universidade[tamanhoArray];
 

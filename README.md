@@ -4,9 +4,9 @@ Questão 1.
 
 Crie uma classe chamada MEC. Nesta classe, crie os métodos abaixo:
 
-1. imprimeUniversidades, que recebe um array de Universidade e imprime as 
+1. <s>imprimeUniversidades, que recebe um array de Universidade e imprime as 
 informações de todas as Universidades, indicando na impressão o tipo da 
-Universidade (Publica ou Privada).
+Universidade (Publica ou Privada).</s>
 
 2. maisCara, que recebe um array de Universidade e imprime as informações 
 da Universidade Privada mais cara do array.
