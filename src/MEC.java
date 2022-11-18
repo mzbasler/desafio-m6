@@ -2,7 +2,7 @@ public class MEC {
 
     public static void imprimeUniversidades(Universidade[] arrayUniversidade) {
         System.out.println();
-        System.out.println("----------IMPRIME UNIVERSIDADES----------");
+        System.out.println    ("----------IMPRIME UNIVERSIDADES----------");
         for (int i = 0; i < arrayUniversidade.length; i++) {
             System.out.println("Universisdade "+(i+1));
             System.out.println("-----------------------------------------");
@@ -16,11 +16,16 @@ public class MEC {
     }
 
     public static void maisCara(Universidade[] arrayUniversidade) {
-
+        int index = 0;
+        double universidadeMaisCara = 0;
         for (int i = 0; i < arrayUniversidade.length; i++) {
             if (arrayUniversidade[i] instanceof Privada) {
-
+                universidadeMaisCara = ((Privada) arrayUniversidade[i]).getValorMensalidade();
+                index = i;
             }
         }
+        System.out.println("---------UNIVERSIDADE MAIS CARA----------");
+        ((Privada) arrayUniversidade[index]).imprimeInfo();
+        System.out.println("-----------------------------------------");
     }
 }
